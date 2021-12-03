@@ -1,0 +1,122 @@
+:root {
+    --green: #27ae60;
+    --lightblue: #3498db;
+    --gray: #95a5a6;
+    --red: #e74c3c;
+    --orange: #f1c40f;
+    --white: white;
+    --black: black;
+    --blue: #36485f;
+    --lightgray: #f1f1f1;
+}
+
+html {
+    background: var(--lightgray);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 0 10px;
+    margin-top: 50px;
+    color: var(--white);
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+/* Header Styles */
+
+header,
+header ul,
+header button {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    justify-content: space-between;
+    max-width: 1000px;
+    padding-left: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: var(--blue);
+}
+
+header button {
+    padding: 15px;
+    overflow: hidden;
+    transition: filter 0.25s;
+}
+
+header li:nth-child(1) button {
+    background: var(--green);
+}
+
+header li:nth-child(2) button {
+    background: var(--lightblue);
+}
+
+header li:nth-child(3) button {
+    background: var(--gray);
+}
+
+header li:nth-child(4) button {
+    background: var(--red);
+}
+
+header li:nth-child(5) button {
+    background: var(--orange);
+}
+
+header button:hover {
+    filter: brightness(110%);
+}
+
+header button svg {
+    fill: var(--white);
+}
+
+header button span {
+    opacity: 0;
+    visibility: hidden;
+    max-width: 0;
+    transition: all 0.25s ease-out;
+}
+
+header button:hover span {
+    margin-left: 15px;
+    opacity: 1;
+    visibility: visible;
+    max-width: 110px;
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        justify-content: center;
+    }
+
+    h1 {
+        display: none;
+    }
+}
