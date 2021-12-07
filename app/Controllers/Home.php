@@ -9,7 +9,7 @@ class Home extends BaseController
         
         echo view('template/navbar');
         echo view('index');
-        
+        echo view('template/footer');
         
     }
 }

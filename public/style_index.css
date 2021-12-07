@@ -17,6 +17,8 @@
     z-index: 999;
     display: flex;
     margin: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .col-3 img{
@@ -37,6 +39,26 @@
     color: #000;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: space-around;
+    background: #F99999;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 1rem;
+}
+
+.content-img img {
+    width: 280px;
+    height: auto;
+    margin: 3rem;
+}
+
+
+
 
 
 
