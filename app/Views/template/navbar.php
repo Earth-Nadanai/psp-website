@@ -7,6 +7,7 @@
     <title></title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_index.css">
 </head>
 <body>
     
@@ -58,5 +59,3 @@
 
     </header>
 
-</body>
-</html>

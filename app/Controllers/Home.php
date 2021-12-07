@@ -6,7 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
+        
         echo view('template/navbar');
         echo view('index');
+        
+        
     }
 }

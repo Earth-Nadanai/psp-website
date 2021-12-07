@@ -1,0 +1,42 @@
+/* index */
+.img-item img {
+    width: 1522.7px;
+	height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.info {
+    background: #fff;
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    bottom: -22rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: flex;
+    margin: 1rem;
+}
+
+.col-3 img{
+    width: 280px;
+    height: auto;
+    margin: 10px;
+}
+
+.psp {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+

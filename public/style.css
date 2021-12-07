@@ -11,7 +11,7 @@
 }
 
 html {
-    background: var(--lightgray);
+    background: var(--white);
 }
 
 * {
@@ -36,7 +36,7 @@ button {
 body {
     font-size: 20px;
     font-family: sans-serif;
-    padding: 0 10px;
+    padding: 0 ;
     margin-top: 50px;
     color: var(--white);
 }
@@ -120,3 +120,4 @@ header button:hover span {
         display: none;
     }
 }
+
