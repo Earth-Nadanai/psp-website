@@ -1,31 +1,47 @@
-    <footer>
-        <div class="footer-content">
-            <h1>Contact</h1>
-            <h1>Shop</h1>
-            <h1>Social</h1>
-        </div>
-        <div class="footer-info">
-            
-                <p>- บริษัท ประสงค์เพาเวอร์เซอร์วิส จำกัด เลขที่ 19/2 หมู่ 1 ต.ท่าชุมพล อ.โพธาราม จ.ราชบุรี 70120 <br>
-                - โทรศัพท์สำนักงาน : 081-8100410 <br>
-                - มือถือ : 084-9191514 (กำนันยุ่ง), 089-5915554 (คุณไก่) <br>
-                - แฟกซ์ : 032-233469</p>
-
-                <p>- Shop All <br>
-                - Christmas Decorations <br>
-                - Arts & Crafts <br>
-                - Clothes & Accessories <br>
-                - Kids</p>
-
-                <p>- Facebook <br>
-                - Instagram <br>
-                - Twitter <br>
-                - Pinterest</p>
-
-        </div>
-        <div class="footer">
-        <p>© 2023 by Newington Christmas Market. Proudly created with Wix.com</p>
-        </div>
-    </footer>
+<br><br>
+<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>company</h4>
+					<ul>
+						<li><a href="#">about us</a></li>
+						<li><a href="#">our services</a></li>
+						<li><a href="#">privacy policy</a></li>
+						<li><a href="#">affiliate program</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>get help</h4>
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">shipping</a></li>
+						<li><a href="#">returns</a></li>
+						<li><a href="#">order status</a></li>
+						<li><a href="#">payment options</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>online shop</h4>
+					<ul>
+						<li><a href="#">watch</a></li>
+						<li><a href="#">bag</a></li>
+						<li><a href="#">shoes</a></li>
+						<li><a href="#">dress</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h4>follow us</h4>
+					<div class="social-links">
+						<a href="#"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+   </footer>
+   
 </body>
 </html>
