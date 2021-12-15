@@ -50,32 +50,6 @@
         max-width: 100%;
     }
 }
-/*.web-item-img-navbar img {
-    max-width: 100%;
-    width: 100%;
-	max-height: 850px;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    position: relative;
-    overflow: hidden;
-}*/
-.container-web-item {
-    background-color: #fff;
-    max-width: 1200px;
-    margin: -5rem auto;
-    
-}
-.web-item {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    padding: 1rem;
-}
-
-.web-item-img-info img{
-    width: 100%;
-}
 
 .psp {
     max-width: 100%;
@@ -84,79 +58,26 @@
     padding: 10rem 10%;
     color: #000;
 }
+
 .psp h1 {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.shop-info {
-    background-color: #F99999;
-    padding: 1rem;
-}
-
-.shop-info-item {
+.content-item {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
     padding: 50px;
 }
 
-.shop-info-item-img img {
-    max-width: 100%;
-    width: 100%;
+.content-item-img {
+    margin: auto; 
 }
 
-.button-buynow {
-    display: flex;
-    justify-content: center;
-    border-radius: 6px;
-    background-color: #200902;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    max-width: 200px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
-    left: 50%;
-  }
-  
-.button-buynow span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-.button-buynow span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-.button-buynow:hover span {
-    padding-right: 25px;
-  }
-  
-.button-buynow:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
-  
-/* footer */
-
-/* */
-
-@media only screen and (max-width: 1024px) {
-    .web-item {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    
+.content-item-img img{
+    max-width: 800px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 870px){
@@ -166,10 +87,6 @@
 }
 
 @media screen and (max-width: 768px) {
-    .web-item {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        
-    }
     .web-item-img-navbar h1 {
         font-size: 30px;
     }
@@ -177,9 +94,6 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .web-item {
-        grid-template-columns: 1fr 1fr;
-    }
     .web-item-img-navbar h1 {
         font-size: 20px;
     }
@@ -188,18 +102,19 @@
         padding: 100px;
     }
 
-    .shop-info-item {
+    .content-item {
         grid-template-columns: 1fr;
     }
     
 }
 
 @media only screen and (max-width: 320px) {
-    .web-item {
-        grid-template-columns: 1fr 1fr;
-    }
     .web-item-img-navbar h1 {
         font-size: 18px;
+    }
+
+    .content-item {
+        grid-template-columns: 1fr;
     }
     
 }

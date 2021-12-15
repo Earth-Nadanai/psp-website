@@ -7,7 +7,6 @@
     <title></title>
 
     <link rel="stylesheet" href="style_nav.css">
-    <link rel="stylesheet" href="style_index.css">
     <link rel="stylesheet" href="style_footer.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
