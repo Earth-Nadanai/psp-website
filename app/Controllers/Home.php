@@ -31,4 +31,17 @@ class Home extends BaseController
         echo view('PAS-ProductAll');
         echo view('template/footer');
     }
+
+    public function login()
+    {
+        echo view('login');
+    }
+
+    public function detailservice()
+    {
+        echo view('template/navbar');
+        echo view('PAS-DetailService');
+        echo view('template/footer');
+    }
+    
 }
