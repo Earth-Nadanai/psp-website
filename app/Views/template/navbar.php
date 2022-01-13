@@ -15,7 +15,7 @@
     <header>
 
         <h1>mini Toobar</h1>
-        <ul>
+        <ul class="nav">
             <li>
                 <button>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-front" viewBox="0 0 16 16">

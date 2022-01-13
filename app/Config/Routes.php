@@ -37,7 +37,9 @@ $routes->get('/worksperformance', 'Home::worksperformance');
 $routes->get('/productall', 'Home::productall');
 $routes->get('/login', 'Home::login');
 $routes->get('/detailservice', 'Home::detailservice');
-
+$routes->get('/contact', 'Home::contact');
+$routes->get('/about', 'Home::about');
+$routes->get('/productdetail', 'Home::product_detail');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
